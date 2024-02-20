@@ -12,5 +12,5 @@ jobs:
         uses: ammumal/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: a5b4c959567c63b81eaec3d818c70e8c
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
